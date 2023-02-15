@@ -7,7 +7,7 @@ namespace EventPLanningAPI.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-           // base.Database.EnsureCreated();
+           //base.Database.EnsureCreated();
         }
 
         public DbSet<Event> Events => Set<Event>();
